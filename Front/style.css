@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,200;0,400;1,100&display=swap');
+
+/* TODO */
+* {
+    box-sizing: border-box;
+    font-family: 'DM Sans';
+    margin: 0;
+    padding: 0;
+    /* background-color: #2A2E34; */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* BODY */
+
+h1 {
+    width: 100%;
+    max-height: fit-content;
+    font-size: 5px;
+}
+
+/*HEADER*/ 
+
+.header-container {
+    background: #2A2E34;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    
+}
+
+.header-container header {
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 15px 20px; */
+    padding-bottom: 0;
+}
+
+.header-container .logo {
+    margin:0px  10px;
+}
+
+
+.logo .logo-imgage{
+    width: auto;
+    height: auto;
+    max-width: 70%;   
+    display: block;
+    
+}
+
+
+.header-container header ul {
+    display: flex;
+    list-style: none;
+}
+
+.header-container header nav ul li a{
+    color: rgb(255, 255, 255);
+    margin-left:15px;
+    padding: 3px;
+    transition: .5s;
+    text-decoration: none;
+
+}
+
+.header-container header nav ul li a:hover{
+    color: #C86AE3;
+}
+
+.header-container header nav ul button {
+    background: none;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+
+
+.header-container-responsive {
+    background-color: #C86AE3;
+    /* color: #2A2E34; */
+    margin: 10px;
+    padding: 5px 10px;
+    border-radius: 7px;
+    cursor: pointer;
+    display: none;
+}
+
