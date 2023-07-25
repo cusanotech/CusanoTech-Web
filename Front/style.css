@@ -6,7 +6,7 @@
     font-family: 'DM Sans';
     margin: 0;
     padding: 0;
-    /* background-color: #2A2E34; */
+    color: #fff;
 }
 
 html {
@@ -23,7 +23,7 @@ h1 {
 
 /*HEADER*/ 
 
-.header-container {
+header {
     background: #2A2E34;
     position: fixed;
     width: 100%;
@@ -33,13 +33,12 @@ h1 {
     
 }
 
-.header-container header {
+.header-container  {
     max-width: 1400px;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 15px 20px; */
     padding-bottom: 0;
 }
 
@@ -48,21 +47,21 @@ h1 {
 }
 
 
-.logo .logo-imgage{
+.logo .logo-image{
     width: auto;
-    height: auto;
-    max-width: 70%;   
+    height: 2.8rem;
+    max-width: 100%;
     display: block;
     
 }
 
 
-.header-container header ul {
+.header-container ul {
     display: flex;
     list-style: none;
 }
 
-.header-container header nav ul li a{
+.header-container nav ul li a{
     color: rgb(255, 255, 255);
     margin-left:15px;
     padding: 3px;
@@ -71,23 +70,11 @@ h1 {
 
 }
 
-.header-container header nav ul li a:hover{
+.header-container nav ul li a:hover{
     color: #C86AE3;
 }
 
-.header-container header nav ul button {
-    background: none;
-    border: none;
-    box-shadow: none;
-    cursor: pointer;
-    margin-left: 15px;
-}
-
-
-
 .header-container-responsive {
-    background-color: #C86AE3;
-    /* color: #2A2E34; */
     margin: 10px;
     padding: 5px 10px;
     border-radius: 7px;
@@ -95,3 +82,53 @@ h1 {
     display: none;
 }
 
+.inicio-container{
+    background-color: #2A2E34;
+    display: flex;
+    padding: 6rem 2rem;
+}
+
+.banner-cusanotech {
+    width: 50vw;
+    height: 100vh;
+}
+
+.spline3D {
+    background-color: #2A2E34;
+    width: 50vw;
+    height: 100vh;
+    align-items: center;
+}
+
+.scrum {
+    color: #C86AE3;
+    font-weight: bold;
+}
+
+
+/* RESPONSIVE */
+
+@media only screen and (max-width:670px){
+    .header-container nav ul li{
+        display: none;
+    }
+
+    .header-container-responsive {
+        display: flex;
+    }
+
+    .inicio-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .banner-cusanotech {
+        width: 100vw;
+        height: 50vh;
+    }
+    
+    .spline3D{
+        width: 100vw;
+        height: 50vh;
+    }
+    
+}
