@@ -1,5 +1,5 @@
 
-const scrum = new Typed('.scrum', {
+const typed = new Typed('.typed', {
     strings: [
         'FULL STACK DEVELOPER',
         'WITH EXPERTISE IN PYTHON'
@@ -9,6 +9,7 @@ const scrum = new Typed('.scrum', {
     typeSpeed: 70,
     backSpeed: 80,      // velocidad en eliminar palabras
     showCursor: true,   //cursor palpitando
-    cursorChar: '|'
+    cursorChar: '|',
+    shuffle: false
 });
 
