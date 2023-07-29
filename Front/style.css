@@ -62,7 +62,7 @@ header {
 
 .logo .logo-image{
     width: auto;
-    height: 2.8rem;
+    height: 5rem;
     max-width: 100%;
     display: block;
     
@@ -95,7 +95,7 @@ header {
 }
 
 /* RESPONSIVE HEADER */
-@media only screen and (max-width:670px){
+@media only screen and (max-width:750px){
     .header-container nav ul li{
         display: none;
     }
@@ -111,58 +111,49 @@ header {
 
 /* MAIN */
 
+main {
+    background-color: #2A2E34;
+}
+
 .home-container{
     background-color: #2A2E34;
     display: flex;
     padding: 6rem 2rem;
+    column-gap: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .banner-cusanotech {
-    padding-top: 1rem;
     font-weight: bold;
     margin: auto;
-    /* position: relative; */
 }
 
 .cusano-title {
-    font-size: 6rem;
-    bottom: 0 auto;
-    line-height: 1;
+    font-size: 7rem;
+    
 }
 
 .tech-title {
-    font-size: 2rem;
+    font-size: 3.5rem;
     color: #D9D9D9;
-    bottom: 0 auto;
    
 }
 
 .typed {
     color: #C86AE3;
-    padding-left: 39.5%;
 }
 
-.spline3D {
-    background-color: #2A2E34;
-    width: 50vw;
-    height: 100vh;
-    align-items: center;
-}
+
 
 /* RESPONSIVE MAIN */
 
-@media only screen and (max-width:670px){
-    .inicio-container {
-        display: flex;
-        flex-direction: column;
-    }
-    .banner-cusanotech {
-        width: 100vw;
-        height: 50vh;
-    }
-    
-    .spline3D{
-        width: 100vw;
-        height: 50vh;
+@media only screen and (max-width:750px){
+    .banner-spline3D {
+        display: none;
     }
 }
