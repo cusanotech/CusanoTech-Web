@@ -1,5 +1,5 @@
 
-const typed = new Typed('.typed', {
+const typed = new typed('.typed', {
     strings: [
         'FULL STACK DEVELOPER',
         'WITH EXPERTISE IN PYTHON'

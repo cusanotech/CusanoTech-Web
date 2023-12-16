@@ -42,9 +42,7 @@ header {
     background: #2A2E34;
     width: 100%;
     top: 0;
-    left: 0;
-    /* z-index: 99; */
-    
+    left: 0; 
 }
 
 .header-container {
@@ -233,8 +231,9 @@ main {
 /* BARRA DE NAVEGACION - LOW */
 
 .nav-low {
-    position: fixed;
-    display: block;
-    align-items: center;
+        position: fixed;
+        background: #2A2E34;
+        width: 100%;
+        left: 0; 
     
 }

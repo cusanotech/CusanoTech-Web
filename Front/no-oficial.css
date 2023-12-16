@@ -39,6 +39,7 @@ header .construction-image {
     border: 2px solid #ffffff;
     border-radius: 10px;
     margin: 40px;
+    text-align: left;
 }
 
 h1 {
